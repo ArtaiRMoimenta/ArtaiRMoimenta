@@ -1,5 +1,4 @@
 ## Bienvenido a mi Portfolio Digital 👋
-# Toma asiento
 
 ¡Estimado pernoctador digital! Si has llegado hasta aquí, es porque tu curiosidad ha superado el umbral de lo mundano y te has adentrado en el fascinante mundo de Artai Rodríguez Moimenta. 
 
@@ -11,9 +10,7 @@ Así que, querido aventurero, prepárate para sumergirte en este viaje de autode
 
 ¡Adelante, pues! El escenario está listo. ¡Que empiece la función! 🎭✨
 
-
-**ArtaiRMoimenta/ArtaiRMoimenta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
+# Tabla de contenidos
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on ...
