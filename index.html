@@ -3,26 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-600 text-white p-6 text-center text-2xl font-bold">
-        Mi Portafolio Personal
+<body>
+    <header>
+        <h1>Bienvenido a mi Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#academic">Trabajos Académicos</a></li>
+                <li><a href="#cv">CV Académico</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <nav class="flex justify-center space-x-6 mt-6">
-        <a href="about.html" class="text-blue-600 hover:underline">Sobre mí</a>
-        <a href="projects.html" class="text-blue-600 hover:underline">Proyectos</a>
-        <a href="cv.html" class="text-blue-600 hover:underline">CV</a>
-        <a href="contact.html" class="text-blue-600 hover:underline">Contacto</a>
-    </nav>
 
-    <section class="max-w-4xl mx-auto mt-10 bg-white shadow-lg p-8 rounded-lg">
-        <h2 class="text-3xl font-bold text-center mb-4">Bienvenido a mi portafolio</h2>
-        <p class="text-gray-700 text-center">
-            Aquí encontrarás información sobre mis trabajos académicos, proyectos y formas de contacto.
-        </p>
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy [Tu Nombre]. Soy un apasionado de [tu área de expertise].</p>
     </section>
+
+    <section id="academic">
+        <h2>Trabajos Académicos</h2>
+        <ul>
+            <li><a href="#">Título del Trabajo 1</a></li>
+            <li><a href="#">Título del Trabajo 2</a></li>
+            <!-- Añade más trabajos aquí -->
+        </ul>
+    </section>
+
+    <section id="cv">
+        <h2>CV Académico</h2>
+        <p>Descarga mi CV <a href="assets/cv.pdf" download>aquí</a>.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción del proyecto 2.</p>
+        </div>
+        <!-- Añade más proyectos aquí -->
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme en: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
