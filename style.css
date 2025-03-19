@@ -17,13 +17,26 @@ body {
 /* Encabezado */
 /* Estilos generales del header */
 header {
-    background-color: #b4cce5; /* Fondo oscuro */
+    background-color: #f2f3f5; /* Fondo oscuro */
     color: #fff; /* Texto blanco */
     padding: 1rem 0; /* Espaciado interno */
     position: sticky; /* Header fijo al hacer scroll */
     top: 0;
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el contenido del header (imagen + nombre) */
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.header-img {
+    width: 50px; /* Ajusta el tamaño de la imagen */
+    height: 50px;
+    border: 2px solid #040404; /* Borde azul */
 }
 
 /* Contenedor para centrar el contenido */
