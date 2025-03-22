@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Artai</title>
     <link rel="icon"  href="assets/img/5xGL8c.png">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesIndex.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -13,80 +13,59 @@
     <header>
         <div class="container">
             <div class="header-content">
-            <img src="assets/img/5xGL8c.png" alt="Logo o imagen de Artai" class="header-img">
-            <h2>Artai Rodríguez Moimenta</h2>
+                <a href="index.html"><img src="assets/img/5xGL8c.png" alt="Logo o imagen de Artai" class="header-img"></a>
+                <a href="index.html" class="header-title">Artai Rodríguez Moimenta</a>
             </div>
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-                    <li><a href="sobremi.html">Sobre mi</a></li>
-                    <li><a href="#academic">Trabajos Académicos</a></li>
-                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="sobremi.html">Sobre mí</a></li>
                     <li><a href="momentum.html">MOMENTUM</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+    <!-- Normalmente las paginas estan divididas en etiquetas, header, nav, main, section...
+     A mi no me gusta como las divide chatgpt, porque lo divide todo en secciones, por lo tanto yo te paso
+     como lo dividirias y te quesas con lo que prefieras, considero que lo mio es mas intuitivo-->
 
-    <section id="hero">
-        <div class="container">
-            <h2>Bienvenido a mi Portfolio</h2>
-            <p>Explora mis trabajos, proyectos y experiencia profesional.</p>
-            <a href="sobremi.html" class="btn">Conóceme</a>
-        </div>
-    </section>
 
-    <section id="academic">
-        <div class="container">
-            <h2>Trabajos Académicos</h2>
-            <ul>
-                <li><a href="#">Título del Trabajo 1</a></li>
-                <li><a href="#">Título del Trabajo 2</a></li>
-                <!-- Añade más trabajos aquí -->
-            </ul>
-        </div>
-    </section>
-
-    <section id="cv">
-        <div class="container">
-            <h2>CV Académico</h2>
-            <p>Descarga mi CV <a href="assets/assets/Microbial Biotechnology - 2023 - Moimenta - Modelling the physiological status of yeast during wine fermentation enables.pdf" download class="btn">aquí</a>.</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Proyectos</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Proyecto 1</h3>
-                    <p>Descripción del proyecto 1.</p>
-                </div>
-                <div class="project-card">
-                    <h3>Proyecto 2</h3>
-                    <p>Descripción del proyecto 2.</p>
-                </div>
-                <!-- Añade más proyectos aquí -->
+    <main>
+        <h2>Bienvenido a mi Portfolio</h2>
+        <section class="contenedorSecciones">
+            <div class="sobreMi">
+                <p>Explora mis trabajos, proyectos y experiencia profesional.</p>
+                <a href="sobremi.html" class="boton">Conóceme</a>
             </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>Puedes contactarme en:</p>
-            <div class="contact-links">
-                <a href="mailto:armoimenta@iim.csic.es"><i class="fas fa-envelope"></i> armoimenta@iim.csic.es</a>
-                <a href="https://orcid.org/0000-0002-5609-2317"><i class="fab fa-orcid"></i> ORCID</a>
-                <a href="https://github.com/ArtaiRMoimenta"><i class="fab fa-github"></i> GitHub</a>
+        </section>
+        <section class="contenedorSecciones">
+            <div class="CVTitulo">
+                <h2>CV Académico</h2>
             </div>
-        </div>
-    </section>
+            <div class="CVDescarga">
+                <p>Descarga mi CV <a href="assets/Microbial Biotechnology - 2023 - Moimenta - Modelling the physiological status of yeast during wine fermentation enables.pdf" download class="btn">aquí</a>.</p>
+            </div>
+        </section>
+        <section class="contenedorSecciones">
+                        <div class="contactoTitulo">
+                        <h2>Contacto</h2>
+                    </div>
+            <div class="contacto">
+                <p>Puedes contactarme en:</p>
+                <div class="contact-links">
+                    <a href="mailto:armoimenta@iim.csic.es"><i class="fas fa-envelope"></i> armoimenta@iim.csic.es</a>
+                    <a href="https://orcid.org/0000-0002-5609-2317"><i class="fab fa-orcid"></i> ORCID</a>
+                    <a href="https://github.com/ArtaiRMoimenta"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
 
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Artai Rodríguez Moimenta. Generado con DeepSeek.</p>
-        </div>
+        <p>&copy; 2025 Artai Rodríguez Moimenta.</p>
     </footer>
 
     <script src="scripts.js"></script>
