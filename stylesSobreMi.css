@@ -99,11 +99,11 @@ footer{
     flex-direction: column; /* Organiza el contenido en columna */
     align-items: center; /* Centra horizontalmente */
     justify-content: center; /* Centra verticalmente */
-    text-align: center;
+    text-align: justify;
     padding: 10px 20px; /* Espaciado interno */
     background-color: #f9f9f9; /* Fondo claro */
     border-radius: 10px; /* Bordes redondeados */
-    margin: 50px 150px 50px 150px; /*esto es arriba a lado derecho abajo y al izquierdo*/
+    margin: 50px 50px 50px 50px; /*esto es arriba;lado derecho; abajo;lado izquierdo*/
 }
 
 /* Estilos para el párrafo */
@@ -118,20 +118,20 @@ footer{
 /*Vamos a dividir tu informacion en dos columnas y asu en una esta la imagen y en la otra la informacion*/
 .about {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide en dos columnas iguales */
-    gap: 20px; /* Espacio entre columnas */
+    grid-template-columns: 1fr 4fr; /* Divide en dos columnas iguales */
+    gap: 5px; /* Espacio entre columnas */
     align-items: center; /* Centra verticalmente los elementos */
     justify-content: center; /* Centra horizontalmente los elementos */
 }
 
 .about-image {
     display: flex; /* Habilita flexbox */
-    justify-content: center; /* Centra horizontalmente la imagen */
+    justify-content: normal; /* Centra horizontalmente la imagen */
     align-items: center; /* Centra verticalmente la imagen */
 }
 
 .about-image img {
-    width: 50%; /* Imagen ocupa el 50% del ancho del contenedor */
+    width: 80%; /* Imagen ocupa el 50% del ancho del contenedor */
     border-radius: 10px; /* Bordes redondeados */
 }
 
