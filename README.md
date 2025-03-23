@@ -12,12 +12,12 @@ Así que, querido aventurero, prepárate para sumergirte en este viaje de autode
 
 # Tabla de contenidos
 
-- 🔭 Trabajo en [Bio2Eng]((https://bio2eng.csic.es/)
+- 🔭 Trabajo en [Bio2Eng](https://bio2eng.csic.es/)
 - 🌱 Me he formado en modelado, simulación, optimización y control.
 - 👯 Si quieres colaborar conmigo, ¡contáctame!
 - 🤔 Estoy adentrándome en el campo de la generación automática de modelos con IA.
 - 📫 Contáctame en armoimenta@iim.csic.es
-- ⚡ Visita mi porfolio personal [aquí](https://artairmoimenta.github.io/ArtaiRMoimenta/)
+- ⚡ Visita mi porfolio personal [aquí](https://artairmoimenta.github.io/ArtaiRMoimenta/).
 
 # 📚 Mi GitHub Portfolio
 He creado este portfolio para que puedas conocer lo que hago. 
