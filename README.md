@@ -10,7 +10,12 @@ Así que, querido aventurero, prepárate para sumergirte en este viaje de autode
 
 ¡Adelante, pues! El escenario está listo. ¡Que empiece la función! 🎭✨
 
-# Tabla de contenidos
+# 📚 Mi GitHub Portfolio
+He creado este portfolio para que puedas conocer lo que hago. En mi página personal puedes conocerme mejor, saber cual es mi campo de trabajo, intereses, proyectos en los que he estado trabajando y mi formación académica. Te dejo el enlace aquí abajo.
+
+[ArtaiRMoimenta](https://artairmoimenta.github.io/ArtaiRMoimenta/)
+
+# Sobre mi en un vistazo
 
 - 🔭 Trabajo en [Bio2Eng](https://bio2eng.csic.es/)
 - 🌱 Me he formado en modelado, simulación, optimización y control.
@@ -18,6 +23,3 @@ Así que, querido aventurero, prepárate para sumergirte en este viaje de autode
 - 🤔 Estoy adentrándome en el campo de la generación automática de modelos con IA.
 - 📫 Contáctame en armoimenta@iim.csic.es
 - ⚡ Visita mi porfolio personal [aquí](https://artairmoimenta.github.io/ArtaiRMoimenta/).
-
-# 📚 Mi GitHub Portfolio
-He creado este portfolio para que puedas conocer lo que hago. 
