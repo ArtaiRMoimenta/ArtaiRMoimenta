@@ -10,30 +10,25 @@ Así que, querido aventurero, prepárate para sumergirte en este viaje de autode
 
 ¡Adelante, pues! El escenario está listo. ¡Que empiece la función! 🎭✨
 
-# Visítame en (https://artairmoimenta.github.io/ArtaiRMoimenta/)
+# 📚 Mi GitHub Portfolio
+He creado este portfolio para que puedas conocer lo que hago. En mi página personal puedes conocerme mejor, saber cual es mi campo de trabajo, intereses, proyectos en los que he estado trabajando y mi formación académica. Te dejo el enlace aquí abajo.
 
-# Tabla de contenidos
-Here are some ideas to get you started:
+[ArtaiRMoimenta](https://artairmoimenta.github.io/ArtaiRMoimenta/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# Lista de modelos&datos (🖳📈) o herramientas (🔧) con las que he trabajado.
 
+- MATLAB
+- AMIGO2 toolbox
 
-# 📚 How to Create a GitHub Portfolio
+# Algunos trabajos (📜) que he realizado.
 
-Hi 🙋🏻‍♀️ This is a **fuss-free** guide to create your GitHub portfolio. 
+- Tools (🔧) or apps (🌐) developed for
 
-It's perfect for
-- Beginners in data science looking to showcase samples of work, or projects.
-- Serves as a digital resume to demonstrate your technical skills. 
-- A fun way to track of your projects.
+# Sobre mi en un vistazo
 
-**Why I created this repo?**
-- I used to find GitHub intimidating. When I first signed up in March 2021, I didn't understand how it worked and ended up leaving it aside. 
-- However, since then, I've become quite obsessed with writing in Markdowns 😆 and have learned how to use it. Now, I'm excited to share this knowledge with everyone. 🙂
+- 🔭 Trabajo en [Bio2Eng](https://bio2eng.csic.es/)
+- 🌱 Me he formado en modelado, simulación, optimización y control.
+- 👯 Si quieres colaborar conmigo, ¡contáctame!
+- 🤔 Estoy adentrándome en el campo de la generación automática de modelos con IA.
+- 📫 Contáctame en 📨 armoimenta@iim.csic.es
+- ⚡ Visita mi porfolio personal [aquí](https://artairmoimenta.github.io/ArtaiRMoimenta/).
