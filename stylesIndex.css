@@ -1,3 +1,19 @@
+section {
+    opacity: 0.1;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Línea de progreso */
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #1676dc; /* Color de la línea */
+    transition: width 0.1s ease-out;
+}
 
 html, body {
     height: 100%;
@@ -43,8 +59,8 @@ header {
 }
 
 .header-img {
-    width: 75px; /* Tamaño de la imagen */
-    height: 75px;
+    width: 60px; /* Tamaño de la imagen */
+    height: 60px;
 }
 
 

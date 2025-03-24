@@ -20,6 +20,14 @@ window.addEventListener('scroll', () => {
     });
 });
 
+// Animación linea de progreso
+window.addEventListener("scroll", function () {
+    let scrollTop = document.documentElement.scrollTop; // Scroll actual
+    let scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight; // Altura total scrollable
+    let scrollPercent = (scrollTop / scrollHeight) * 100; // Calcula el porcentaje
+    document.querySelector(".progress-bar").style.width = scrollPercent + "%"; // Ajusta el ancho
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     const chatButton = document.querySelector('.btnChat');
     const chatForm = document.getElementById('formularioChat');
