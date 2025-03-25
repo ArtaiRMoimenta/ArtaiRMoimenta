@@ -44,7 +44,7 @@ header {
 
 
 /* Contenedor para centrar y organizar el contenido */
-.container {
+.container2 {
     display: flex;
     justify-content: space-between; /* Separa la izquierda (imagen + nombre) y la derecha (menú) */
     align-items: center; /* Centra verticalmente */
@@ -124,6 +124,18 @@ footer{
     margin: 50px 50px 50px 50px; /*esto es arriba;lado derecho; abajo;lado izquierdo*/
 }
 
+.contenedoresquema {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+    align-items: normal; /* Centra horizontalmente */
+    justify-content: normal; /* Centra verticalmente */
+    text-align: justify;
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo claro */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 50px 50px 50px 50px; /*esto es arriba;lado derecho; abajo;lado izquierdo*/
+}
+
 /* Estilos para el párrafo */
 .contenedorSecciones p {
     font-family: 'Roboto', sans-serif;
@@ -132,6 +144,7 @@ footer{
     margin-bottom: 20px; /* Espacio debajo del párrafo */
     line-height: 1.6; /* Espaciado entre líneas */
 }
+
 
 /*Vamos a dividir tu informacion en dos columnas y asu en una esta la imagen y en la otra la informacion*/
 .about {
@@ -142,14 +155,9 @@ footer{
     justify-content: center; /* Centra horizontalmente los elementos */
 }
 
-.about-image {
-    display: flex; /* Habilita flexbox */
-    justify-content: normal; /* Centra horizontalmente la imagen */
-    align-items: center; /* Centra verticalmente la imagen */
-}
 
-.about-image img {
-    width: 80%; /* Imagen ocupa el 50% del ancho del contenedor */
+.img-photo {
+    width: 100px; /* Imagen ocupa el 50% del ancho del contenedor */
     border-radius: 10px; /* Bordes redondeados */
 }
 
@@ -215,4 +223,8 @@ footer{
 .project-card:hover {
     transform: translateY(-5px); /* Levita la tarjeta */
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Aumenta la sombra */
+}
+
+.text-justify {
+    text-align: justify;
 }
