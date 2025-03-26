@@ -33,42 +33,65 @@
         <div class="bg-image" 
             style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
             height: 100vh">
-            <h2>¡Hola! Soy ArtaiRMoimenta </h2>
-            <img src="assets/img/me_photo.jpg" alt="Rounded Image" class="rounded-circle img-fluid img-circle">
-            <h2>Investigador pre-doctoral | Modelado | Simulación | Optimización </h2>
-            <h2>Biología de Sistemas |  </h2>
+            <h1 class="display-3 mb-5">¡Hola! Soy ArtaiRMoimenta </h1>
+            <img src="assets/img/me_photo_main.png" alt="Rounded Image" class="rounded-circle border border-primary img-fluid img-circle mb-5">
+            <h2 class="text-muted">Investigador pre-doctoral | Modelado | Simulación | Optimización </h2>
+            <h2 class="text-muted">Biología de Sistemas |  </h2>
+            <!--
+            <a href="sobremi.html" class="btn btn-outline-light">Sobre mí</a>
+            <a href="proyectos.html" class="btn btn-primary">Proyectos</a>
+            <a href="#Get_touch" class="btn btn-dark">Contáctame</a>
+            -->
             <!-- Card -->
                 <div class="bg-image card shadow-1-strong" style="background-image: url('https://mdbootstrap.com/img/new/slides/003.jpg');">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
-                        </p>
-                        <a href="sobremi.html" class="btn btn-outline-light">Sobre mí</a>
+                    <div class="card-body text-white mb-3">
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"></p>
+                        <a href="sobremi.html" class="btn btn-outline-light" role="button">Sobre mí</a>
+                        <a href="proyectos.html" class="btn btn-outline-primary" role="button">Proyectos</a>
+                        <a href="#Get_touch" class="btn btn-outline-secondary" role="button">Contáctame</a>
                     </div>
                 </div>
         </div>
-        <section class="contenedorSecciones">
-            <div class="about">
-                <p>Explora mis trabajos, proyectos y experiencia profesional.</p>
-                <a href="sobremi.html" class="boton">Conóceme</a>
-                <a href="proyectos.html" class="boton">Publicaciones</a>
+
+        <section class="container">
+            <h2 class="text-center mb-4">Algunos Proyectos en los que he participado</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/logo-dtwine-aaff.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">DTWINE2021</h5>
+                            <p class="card-text text-justify">Digital Twins to optimize energy efficiency and product quality in WINEries.</p>
+                        </div>
+                        <a href="https://dtwine.es/" class="card-footer text-center text-decoration-none bg-primary fw-bold transition text-white"
+                        role="button" style="cursor: pointer; transition: background 0.3s ease;">
+                            Más información
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/logo_momentum.png" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">BioGenIA</h5>
+                            <p class="card-text text-justify">Generación de Modelos Predictivos integrando Inteligencia Artificial y Conocimiento Mecanicista 
+                                de Bioprocesos y Biosistemas en la Industria Alimentaria.</p>
+                        </div>
+                        <a href="momentum.html" class="card-footer text-center text-decoration-none bg-primary fw-bold transition text-white"
+                        role="button" style="cursor: pointer; transition: background 0.3s ease;">
+                            Más información
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="contenedorSecciones">
-            <div class="CVTitulo">
-                <h2>CV Académico</h2>
-            </div>
-            <div class="CVDescarga">
-                <p>Descarga mi CV <a href="assets/Microbial Biotechnology - 2023 - Moimenta - Modelling the physiological status of yeast during wine fermentation enables.pdf" download class="btn">aquí</a>.</p>
-            </div>
-        </section>
+
         <section class="contenedorSecciones">
                         <div class="contactoTitulo">
                         <h2>Contacto</h2>
                     </div>
-            <div class="contacto">
+            <div class="contacto" id="Get_touch">
                 <p>Puedes contactarme en:</p>
                 <div class="contact-links">
                     <a href="mailto:armoimenta@iim.csic.es"><i class="fas fa-envelope"></i> armoimenta@iim.csic.es</a>

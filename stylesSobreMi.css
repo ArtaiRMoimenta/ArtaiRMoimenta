@@ -233,3 +233,8 @@ footer{
     width: 200px; /* Imagen ocupa el 50% del ancho del contenedor */
     border-radius: 10px; /* Bordes redondeados */
 }
+
+.card-img-custom {
+    height: 200px;  /* Ajusta la altura según necesites */
+    object-fit: cover; /* Mantiene la proporción sin deformar */
+}
