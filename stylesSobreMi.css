@@ -230,7 +230,7 @@ footer{
 }
 
 .img-circle {
-    width: 200px; /* Imagen ocupa el 50% del ancho del contenedor */
+    width: 300px; /* Imagen ocupa el 50% del ancho del contenedor */
     border-radius: 10px; /* Bordes redondeados */
 }
 
