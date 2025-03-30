@@ -1,6 +1,6 @@
 /*Efecto para el scroll*/
 section {
-    opacity: 0.1;
+    opacity: 1;
     transform: translateY(50px);
     transition: opacity 0.6s ease, transform 0.6s ease;
 }
@@ -234,7 +234,25 @@ footer{
     border-radius: 10px; /* Bordes redondeados */
 }
 
+.card {
+    height: 100%; /* Para que todas las tarjetas tengan la misma altura */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1; /* Hace que el contenido de texto crezca de manera uniforme */
+}
+
 .card-img-custom {
-    height: 200px;  /* Ajusta la altura según necesites */
-    object-fit: cover; /* Mantiene la proporción sin deformar */
+    width: 100%; /* Ocupar el ancho de la tarjeta */
+    height: 300px; /* Altura fija para todas las imágenes */
+    object-fit: contain; /* La imagen se ajusta sin recortarse */
+    background-color: #f8f9fa; /* Color de fondo si la imagen no llena el espacio */
+}
+
+.img-fondo {
+    height: auto;  /* Ajusta la altura según necesites */
+    max-width: 100%;
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg');
 }
